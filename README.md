@@ -5,12 +5,12 @@ Install [RubyMine](http://www.jetbrains.com/ruby/), the Most Intelligent Ruby an
 ## Usage
 
 ```puppet
+include rubymine
+
+OR
+
 class { 'rubymine':
-  edition => 'community',
-}
-class { 'intellij':
-  edition => 'ultimate',
-	version => '12.1.4'
+  version => '7.0.4'
 }
 ```
 
